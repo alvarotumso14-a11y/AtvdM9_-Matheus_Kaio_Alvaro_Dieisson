@@ -7,4 +7,14 @@
     <RootNamespace>AtvdM9__Matheus_Kaio_Alvaro_Dieisson</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Views\Tarefas\Create.cshtml" />
+    <Content Remove="Views\Tarefas\Delete.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Views\Tarefas\Create.cshtml" />
+    <Compile Include="Views\Tarefas\Delete.cshtml" />
+  </ItemGroup>
+
 </Project>
