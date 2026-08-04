@@ -1,3 +1,10 @@
-﻿@using AtvdM9__Matheus_Kaio_Alvaro_Dieisson
-@using AtvdM9__Matheus_Kaio_Alvaro_Dieisson.Models
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "Erro";
+}
+
+<h1 class="text-danger">Ops, deu erro.</h1>
+@if (Model.ShowRequestId)
+{
+    <p><strong>Request Id:</strong> @Model.RequestId</p>
+}
