@@ -1,9 +1,8 @@
-namespace AtvdM9__Matheus_Kaio_Alvaro_Dieisson.Models
+namespace ProjetoTarefas.Models
 {
     public class ErrorViewModel
     {
         public string? RequestId { get; set; }
-
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }

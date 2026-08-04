@@ -18,16 +18,17 @@ namespace ProjetoTarefas.Models
         [Display(Name = "Descrição")]
         public string? Descricao { get; set; }
 
+
         [Required(ErrorMessage = "A data é obrigatória.")]
         [DataType(DataType.Date)]
         [Display(Name = "Data")]
         public DateTime Data { get; set; } = DateTime.Today;
 
-
+  
         [Display(Name = "Concluída?")]
         public bool Concluida { get; set; }
 
-   
+
         public int UsuarioId { get; set; }
 
         public Usuario? Usuario { get; set; }
