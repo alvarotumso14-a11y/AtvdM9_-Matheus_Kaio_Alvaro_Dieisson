@@ -9,7 +9,6 @@
     <a asp-action="Create" class="btn btn-success">+ Nova Tarefa</a>
 </div>
 
-@* ---- Filtro de busca por status (bônus +1 ponto) ---- *@
 <div class="btn-group mb-4" role="group">
     <a asp-action="Index" asp-route-status="null"
        class="btn btn-outline-secondary @(statusAtual == null ? "active" : "")">Todas</a>
